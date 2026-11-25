@@ -1,7 +1,13 @@
+[![make.fun · news-image-20261125](https://make.fun/badge/news-image-20261125.svg)](https://make.fun/bounty/news-image-20261125?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261125)
+[![rank](https://make.fun/badge/news-image-20261125/eboot/news-image-20261125/rank.svg)](https://make.fun/bounty/news-image-20261125/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261125)
+[![reward](https://make.fun/badge/news-image-20261125/eboot/news-image-20261125/reward.svg)](https://make.fun/bounty/news-image-20261125?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261125)
+
 # Wednesday 25 November 2026 on one page — 47 stories, 3 heroes, map, date check
 
 Entry for [make.fun](https://make.fun/bounty/news-image-20261125) `news-image-20261125`:
 sum up Wednesday 25 November 2026's world news in one image.
+
+Referral code: `4h417wrn`
 
 ## What it is
 
@@ -25,10 +31,9 @@ earlier days are named in DATE CHECK, left out — not silently re-dated.
 
 ## The program
 
-`main.py` (Python 3.13, standard library only) writes the image to
-`/output/entry.png`. The PNG is embedded in it as base64, so the program needs
-no network, no fonts and no third-party packages, and every run writes the
-exact same bytes.
+`main.py` (Python 3.13, standard library only) copies the repository's
+`entry.png` to `/output/entry.png`. No network, no fonts, no third-party
+packages; every run writes the exact same bytes.
 
 `render.py` is the drawing source that produced the image, from the news
 researched on 25 November 2026. Running it regenerates `entry.png`.
